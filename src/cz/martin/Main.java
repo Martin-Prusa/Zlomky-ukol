@@ -8,7 +8,7 @@ public class Main {
 	// write your code here
         Scanner sc = new Scanner(System.in);
         //int number = sc.nextInt();
-        float n;
+        int n;
         float sum = 0;
         System.out.println("Zadej číslo:");
 
