@@ -7,14 +7,14 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         Scanner sc = new Scanner(System.in);
-        //float number = sc.nextFloat();
+        //int number = sc.nextInt();
         float n;
         float sum = 0;
         System.out.println("Zadej číslo:");
 
         while(true) {
             try {
-                n = Float.parseFloat(sc.nextLine());
+                n = Integer.parseInt(sc.nextLine());
                 break;
             } catch (Exception e) {
                 System.out.println("Toto není číslo. Zkus to znovu.");
